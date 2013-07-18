@@ -356,6 +356,9 @@ class Tx_Podcast_Domain_Model_Episode extends Tx_Extbase_DomainObject_AbstractEn
 				case 'm4v': $mime='video/x-m4v'; break;
 				case 'webm': $mime='video/webm'; break;
 				case 'mp3': $mime='audio/mpeg'; break;
+				case 'ogg': $mime='application/ogg'; break;
+				case 'flac': $mime='audio/flac'; break;
+				case 'spx': $mime='audio/x-speex'; break;
 				case 'mov': $mime='video/quicktime'; break;
 				case 'pdf': $mime='application/pdf'; break;
 				case 'epub':$mime='document/x-epub'; break;
