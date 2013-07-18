@@ -106,7 +106,7 @@ $TCA['tx_podcast_domain_model_episode'] = array(
 			/*'config' => array (
 				'type' => 'group',
 				'internal_type' => 'file',
-				'allowed' => 'pdf,mp3,jpeg,jpg',	
+				'allowed' => 'pdf,mp3,jpeg,jpg,ogg,flac,spx',	
 				'max_size' => 100000,	
 				'uploadfolder' => 'uploads/tx_podcast',
 				'show_thumbs' => 1, 
@@ -128,7 +128,7 @@ $TCA['tx_podcast_domain_model_episode'] = array(
 						'script' => 'browse_links.php?mode=wizard',
 						'params' => array(
 							'blindLinkOptions' => 'mail, page, spec, folder',
-							'allowedExtensions' => 'mp3,m4a,mp4,pdf,mov,wmv',
+							'allowedExtensions' => 'mp3,m4a,mp4,pdf,mov,wmv,ogg,spx,flac',
 						),
 						'JSopenParams' => 'height=500,width=600,status=0,menubar=0,scrollbars=1'
 					)
