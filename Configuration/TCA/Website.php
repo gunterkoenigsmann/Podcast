@@ -119,7 +119,7 @@ $TCA['tx_podcast_domain_model_website'] = array(
 						'script' => 'browse_links.php?mode=wizard',
 						'params' => array(
 							'blindLinkOptions' => 'mail, page, spec, folder',
-							'allowedExtensions' => 'mp3,m4a,mp4,pdf,mov,wmv',
+							'allowedExtensions' => 'mp3,m4a,ogg,mp4,pdf,mov,wmv',
 						),
 						'JSopenParams' => 'height=500,width=600,status=0,menubar=0,scrollbars=1'
 					)

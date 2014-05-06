@@ -352,6 +352,7 @@ class Tx_Podcast_Domain_Model_Episode extends Tx_Extbase_DomainObject_AbstractEn
 			$file_extension = strtolower($fileinfo['extension']);
 			switch($file_extension) {	   
 				case 'm4a': $mime='audio/x-m4a'; break;
+				case 'ogg': $mime='audio/ogg'; break;
 				case 'mp4': $mime='video/mp4'; break;
 				case 'm4v': $mime='video/x-m4v'; break;
 				case 'webm': $mime='video/webm'; break;
