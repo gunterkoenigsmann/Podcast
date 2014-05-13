@@ -11,6 +11,9 @@
 					</f:else>
 				</f:if>  
 				<itunes:author><f:format.html parseFuncTSPath="plugin.tx_podcast.feedparser">{episode.author.name}</f:format.html></itunes:author>
+				<f:if condition="{episode.image}">
+					<f:then><itunes:image href="uploads/tx_podcast/{episode.image}" />
+				</f:if>
 				<itunes:subtitle><f:format.html parseFuncTSPath="plugin.tx_podcast.feedparser">{episode.subtitle}</f:format.html></itunes:subtitle>
 				<itunes:summary><f:format.html parseFuncTSPath="plugin.tx_podcast.feedparser">{episode.description}</f:format.html></itunes:summary>
 				<description><f:format.html parseFuncTSPath="plugin.tx_podcast.feedparser">{episode.description}</f:format.html></description>
